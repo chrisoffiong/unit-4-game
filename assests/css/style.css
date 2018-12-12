@@ -1,0 +1,18 @@
+
+.jumbotron {
+    background-image: url("../images/bg.png");
+    color: white;
+    font-family: Helvetica;
+}
+body {
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    background-color:  black;
+    color: white;
+}
+.container2 {
+    background-color: rgba(10, 2, 2, 0.678);
+    height: 1080px;
+    width: 1920px;
+    
+}
