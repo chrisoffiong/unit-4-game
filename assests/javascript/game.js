@@ -13,10 +13,10 @@ $(document).ready(function () {
 
     function restart() {
         winningNumber = Math.floor(Math.random() * (120 - 19) + 19);
-        var crystalOne = Math.floor(Math.random() * (20 - 1) + 1);
-        var crystalTwo = Math.floor(Math.random() * (10 - 1) + 1);
-        var crystalThree = Math.floor(Math.random() * (5 - 1) + 1);
-        var crystalFour = Math.floor(Math.random() * (2 - 1) + 1);
+        crystalOne = Math.floor(Math.random() * (20 - 1) + 1);
+        crystalTwo = Math.floor(Math.random() * (10 - 1) + 1);
+        crystalThree = Math.floor(Math.random() * (5 - 1) + 1);
+        crystalFour = Math.floor(Math.random() * (2 - 1) + 1);
         total = 0;
         alert("Another Round!")
         alert("Click another crystal gem to play!")
